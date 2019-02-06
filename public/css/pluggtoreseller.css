@@ -1,0 +1,58 @@
+.hide{display: none!important;}
+.semantic-message .ui{margin:20px 0 20px 0!important;}
+[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+  display: none !important;
+}
+
+/* menu */
+.menu-logo-pluggto{width:240px;text-align:center;}
+.menu-logo-pluggto img{height:30px; width:210px!important;}
+
+/* content */
+.content-div{margin-top:50px!important;}
+#global-loading{cursor:wait;}
+.overflow-container{
+	height:210px;
+	overflow-y:scroll!important;
+	overflow-x:hidden!important;
+	margin:5px -15px 5px -15px;
+	padding:15px;
+}
+
+/* users */
+.filters-container{margin-top:15px;}
+.overflow-table{
+	margin-top:15px;
+	overflow-x:scroll;
+	overflow-y:hidden;
+	width:100%;
+}
+#users-table thead th{cursor: pointer;}
+.user-buttons-table > .row{padding:1px!important;}
+#users-modal .info-box{margin-bottom:25px;}
+#users-modal .info-box strong{width: 250px;display:inline-block;}
+#users-modal .info-box .info{
+	padding: 1px 8px 1px 8px;
+	background:#eee;
+	border:1px solid #ccc;
+	border-radius:6px;
+}
+.view-details-container{padding: 30px!important;}
+
+.sortorder:after {
+  content: '\25b2';   // BLACK UP-POINTING TRIANGLE
+}
+.sortorder.desc:after {
+  content: '\25bc';   // BLACK DOWN-POINTING TRIANGLE
+}
+.ui.tabular.menu .item{
+	cursor:pointer;
+}
+
+.has-text-right {
+	text-align: right;
+}
+
+.is-flex-centered {
+	justify-content: center;
+}

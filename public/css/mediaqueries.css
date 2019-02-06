@@ -1,0 +1,3 @@
+@media(max-width:1000px){
+    #users-modal .info-box strong{display:block;margin-bottom:25px;}
+}
