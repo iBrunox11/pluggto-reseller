@@ -12,9 +12,7 @@
 */
 Route::group(['middleware' => 'web','middleware' => 'auth'], function()
 {
-    Route::get('/', function () {
-        return view('welcome');
-    });
+    Route::get('/', ['middleware' => 'auth', 'uses' => 'UserController@index']);
 
 }
 );
